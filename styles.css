@@ -525,3 +525,45 @@ body {
         font-size: 1.5em;
     }
 }
+
+.navbar .nav-btn,
+.navbar .nav-btn * {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    mix-blend-mode: normal !important;
+}
+
+.navbar .nav-btn:hover,
+.navbar .nav-btn:focus,
+.navbar .nav-btn:active,
+.navbar .nav-btn.active,
+.navbar .nav-btn:focus-visible {
+    background-color: var(--accent-red) !important;
+    border-color: var(--accent-red) !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3) !important;
+    outline: none !important; 
+}
+
+.navbar .nav-btn span,
+.navbar .nav-btn > * {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+
+.navbar .nav-btn,
+.navbar .nav-btn * {
+    -webkit-text-stroke: 0px transparent !important;
+    text-stroke: 0px !important;
+}
+
+.navbar .nav-btn.debug-force-bg {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
